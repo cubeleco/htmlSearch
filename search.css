@@ -1,0 +1,29 @@
+#HTMLSearchCLCO {
+	color: white;
+	background-color: #222;
+	border: 3px outset #888;
+	border-radius: 15px;
+	z-index: 2000000000;
+	position: fixed;
+	top: 5px;
+	right: 10px;
+	padding: 0 .9em 0 0;
+	text-align: left;
+	font: 18px helvetica, arial;
+}
+#HTMLSearchCLCO input {
+	color: white;
+	background-color: #151515;
+	border: none;
+	border-radius: 10px;
+	width: 60%;
+	height: 100%;
+	padding: .1em 1.1em;
+	margin: 0;
+}
+#HTMLSearchCLCO input:focus {
+	background-color: #323232;
+}
+#HTMLSearchCLCO span {
+	float: right;
+}
