@@ -1,0 +1,44 @@
+html, body {
+	color: white;
+	background-color: #2a2a2a;
+	display: flex;
+	flex-direction: column;
+}
+body {
+	min-width: 500px;
+	padding: .3em 1em;
+}
+h4 {
+	margin: 1.5em 0 .3em 0;
+}
+label {
+	margin: .2em 0;
+}
+span {
+	display: inline-block;
+	width: 14em;
+}
+input, textarea, button, select {
+	color: white;
+	background-color: #141414;
+	border: 2px solid #777;
+	border-radius: 8px;
+}
+input[type="text"] {
+	width: 18em;
+	padding: .05em .5em;
+}
+input:focus {
+	border: 2px solid #2c2;
+}
+.floatRight {
+	float: right;
+}
+.disableKey {
+	padding: .1em .5em;
+	margin: 0 .5em;
+	border: none;
+}
+.gap {
+	margin-top: 1em;
+}

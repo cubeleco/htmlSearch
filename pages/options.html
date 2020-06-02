@@ -1,1 +1,86 @@
-
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body>
+	<h4>
+		Shortcuts
+		<button id="factoryReset" class="floatRight">Default options</button>
+	</h4>
+	<label>
+		<span>Open search</span>
+		<input id="searchKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<label>
+		<span>Close search</span>
+		<input id="closeKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<label>
+		<span>Focus element</span>
+		<input id="focusKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<label>
+		<span>Select element</span>
+		<input id="selectKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<label>
+		<span>Click element</span>
+		<input id="clickKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<label class="gap">
+		<span>Next match</span>
+		<input id="nextKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<label>
+		<span>Previous match</span>
+		<input id="previousKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<label>
+		<span>First match</span>
+		<input id="firstKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<label>
+		<span>Last match</span>
+		<input id="lastKey" type="text" readonly="true">
+		<button class="disableKey">x</button>
+	</label>
+	<h4>Options</h4>
+	<label>
+		<span>Highlighted outline</span>
+		<input id="highlightOutline" type="text">
+	</label>
+	<label>
+		<span>Selected outline</span>
+		<input id="selectOutline" type="text">
+	</label>
+	<label>
+		<span>Scroll on-screen</span>
+		<select id="selectScroll">
+			<option>nearest</option>
+			<option>top</option>
+			<option>center</option>
+			<option>bottom</option>
+		</select>
+	</label>
+	<label>
+		<span>Log matches</span>
+		<input id="debugMatches" type="checkbox">
+	</label>
+	<label style="display: none">
+		<span>History entries</span>
+		<input id="historyTot" type="number">
+	</label>
+	<script type="text/javascript" src="../defaults.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+</body>
+</html>
